@@ -1,6 +1,13 @@
 # Project Name
 
-This is a project that does XYZ.
+This is a project for Knose Pet Care Assessment.
+
+## Prerequisites
+
+1. Install latest node
+2. Install visual studion code (vsCode) studio
+3. Install nest js using npm
+   You can check the nestjs documentation https://docs.nestjs.com/
 
 ## Getting Started
 
@@ -21,23 +28,32 @@ This is a project that does XYZ.
 
 ### Running the loop "Knose Pet Care Made Easy"
 
-````bash
+```bash
 node start.js divisible <number>
+```
 
 ### Running the dash asterisk figure loop
 
 ```bash
 node start.js dashAsterisk <number>
+```
 
 ### Running the best sorting algorithm
 
 ```bash
 node start.js bestSortingMethod
+```
 
-Note: The best sorting method in JavaScript depends on the specific requirements of the problem at hand.
+### Project
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+`<project url>` = 'https://github.com/melynbrillo/knose.git'
+
+`<name of the postman collection file>` = '[Knose].postman_collection'
+
+`<name of the postman environment file>` = 'Knose.postman_environment'
 
 Replace `<project url>`, `<name of the postman collection file>`, and `<name of the postman environment file>` with the actual URLs and file names, respectively.
-````
+
+## Note
+
+The best sorting method in JavaScript depends on the specific requirements of the problem at hand.

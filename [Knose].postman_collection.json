@@ -1,0 +1,344 @@
+{
+	"info": {
+		"_postman_id": "48faab67-bc6f-463d-9069-4869291317aa",
+		"name": "[Knose]",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25748898"
+	},
+	"item": [
+		{
+			"name": "Loop",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text",
+						"description": "Use for Bearer authentication"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrl}}/divisible/:count",
+					"host": [
+						"{{BaseUrl}}"
+					],
+					"path": [
+						"divisible",
+						":count"
+					],
+					"variable": [
+						{
+							"key": "count",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Loop",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text",
+								"description": "Use for Bearer authentication"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseUrl}}/divisible/:count",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"divisible",
+								":count"
+							],
+							"variable": [
+								{
+									"key": "count",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "321"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"141-RwsYNtnKJEd9pkzdmUvrK41LX/w\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 18 Mar 2023 04:02:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    2,\n    3,\n    4,\n    \"Knose\",\n    6,\n    \"Pet Care Made Easy\",\n    8,\n    9,\n    \"Knose\",\n    11,\n    12,\n    13,\n    \"Pet Care Made Easy\",\n    \"Knose\",\n    16,\n    17,\n    18,\n    19,\n    \"Knose\",\n    \"Pet Care Made Easy\",\n    22,\n    23,\n    24,\n    \"Knose\",\n    26,\n    27,\n    \"Pet Care Made Easy\",\n    29,\n    \"Knose\",\n    31,\n    32,\n    33,\n    34,\n    \"Knose Pet Care Made Easy\",\n    36,\n    37,\n    38,\n    39,\n    \"Knose\",\n    41,\n    \"Pet Care Made Easy\",\n    43,\n    44,\n    \"Knose\",\n    46,\n    47,\n    48,\n    \"Pet Care Made Easy\",\n    \"Knose\"\n]"
+				}
+			]
+		},
+		{
+			"name": "Dash Asterisk",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text",
+						"description": "Use for Bearer authentication"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrl}}/figure/:count",
+					"host": [
+						"{{BaseUrl}}"
+					],
+					"path": [
+						"figure",
+						":count"
+					],
+					"variable": [
+						{
+							"key": "count",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Dash Asterisk",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text",
+								"description": "Use for Bearer authentication"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseUrl}}/figure/:count",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"figure",
+								":count"
+							],
+							"variable": [
+								{
+									"key": "count",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2651"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a5b-nySlhBtfE8pYO2e1X+cDGHELSqY\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 18 Mar 2023 04:04:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"-------------------------------------------------*\",\n    \"------------------------------------------------**\",\n    \"-----------------------------------------------***\",\n    \"----------------------------------------------****\",\n    \"---------------------------------------------*****\",\n    \"--------------------------------------------******\",\n    \"-------------------------------------------*******\",\n    \"------------------------------------------********\",\n    \"-----------------------------------------*********\",\n    \"----------------------------------------**********\",\n    \"---------------------------------------***********\",\n    \"--------------------------------------************\",\n    \"-------------------------------------*************\",\n    \"------------------------------------**************\",\n    \"-----------------------------------***************\",\n    \"----------------------------------****************\",\n    \"---------------------------------*****************\",\n    \"--------------------------------******************\",\n    \"-------------------------------*******************\",\n    \"------------------------------********************\",\n    \"-----------------------------*********************\",\n    \"----------------------------**********************\",\n    \"---------------------------***********************\",\n    \"--------------------------************************\",\n    \"-------------------------*************************\",\n    \"------------------------**************************\",\n    \"-----------------------***************************\",\n    \"----------------------****************************\",\n    \"---------------------*****************************\",\n    \"--------------------******************************\",\n    \"-------------------*******************************\",\n    \"------------------********************************\",\n    \"-----------------*********************************\",\n    \"----------------**********************************\",\n    \"---------------***********************************\",\n    \"--------------************************************\",\n    \"-------------*************************************\",\n    \"------------**************************************\",\n    \"-----------***************************************\",\n    \"----------****************************************\",\n    \"---------*****************************************\",\n    \"--------******************************************\",\n    \"-------*******************************************\",\n    \"------********************************************\",\n    \"-----*********************************************\",\n    \"----**********************************************\",\n    \"---***********************************************\",\n    \"--************************************************\",\n    \"-*************************************************\",\n    \"**************************************************\"\n]"
+				}
+			]
+		},
+		{
+			"name": "Best Sorting Method",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text",
+						"description": "Use for Bearer authentication"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrl}}",
+					"host": [
+						"{{BaseUrl}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Best Sorting Method",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text",
+								"description": "Use for Bearer authentication"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseUrl}}",
+							"host": [
+								"{{BaseUrl}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1031"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"407-DkQDHNY53T3pBOHHrwkuGNbklNc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 18 Mar 2023 04:03:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "The best sorting method depends on various factors such as the size of the input data, the distribution of the data, the memory constraints, and the specific requirements of the problem at hand.\n\n*Quick Sort is one of the fastest sorting algorithms and is often used as the default sorting method.\n*Bubble Sort is a simple sorting algorithm, it is easy to implement and is suitable for small datasets. But sometimes it is slow fot large datasets and not recommended for the large projects.\n*Merge Sort is a stable sorting algorithm. It is suitable for sorting large datasets and has good performance on all types of input data, including arrays with repeated elements. But it requires additional memory to perform the sorting, which can be a disadvantage for limited memory environments.\n\nFor most general use cases, Quick Sort or Merge Sort are good choices, as they have good average case performance and are suitable for a wide range of input data. However, for specific use cases, other sorting algorithms may be more suitable."
+				}
+			]
+		}
+	]
+}
